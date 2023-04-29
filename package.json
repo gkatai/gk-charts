@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start:backend": "npm run start -w ./src/services/backend"
+    "start:backend": "npm run start -w ./src/services/backend",
+    "start:frontend": "npm run dev -w ./src/services/frontend"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
   },
   "homepage": "https://github.com/gkatai/gk-charts#readme",
   "workspaces": [
-    "src/services/backend"
+    "src/services/backend",
+    "src/services/frontend"
   ]
 }
