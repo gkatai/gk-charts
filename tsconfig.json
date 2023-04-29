@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "moduleResolution": "nodenext",
+    "outDir": "dist",
+    "isolatedModules": false,
+    "strict": true,
+    "noImplicitAny": true,
+    "sourceMap": true
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"]
+}
