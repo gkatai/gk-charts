@@ -1,3 +1,12 @@
-import { add } from "./add.js";
+import express from "express";
 
-console.log("Hello backend...", add(4, 5));
+const app = express();
+app.use(express.static("public"));
+
+app.get("/test", (req, res) => {
+  res.send("Hello World!");
+});
+
+app.listen(3000, () => {
+  console.log("Example app listening on port 3000");
+});
