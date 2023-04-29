@@ -2,9 +2,12 @@
   "name": "gk-charts",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "start:backend": "npm run start -w ./src/services/backend",
-    "start:frontend": "npm run dev -w ./src/services/frontend"
+    "build:backend": "npm run build -w ./src/services/backend",
+    "start:frontend": "npm run dev -w ./src/services/frontend",
+    "build:frontend": "npm run build -w ./src/services/frontend"
   },
   "repository": {
     "type": "git",
