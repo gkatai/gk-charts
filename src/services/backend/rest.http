@@ -1,0 +1,2 @@
+GET http://localhost:3000/ohlc?pair=XBTUSD&interval=15
+Content-Type: application/json
